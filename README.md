@@ -17,7 +17,3 @@ Estrutura do Repositório:
     /scripts: Contém os scripts Python para ETL.
     /data: Armazena os dados brutos e processados.
     /docs: Documentação do projeto e instruções de uso.
-
-Contribuições:
-
-Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, reportar problemas ou enviar pull requests para aprimorar este projeto.
