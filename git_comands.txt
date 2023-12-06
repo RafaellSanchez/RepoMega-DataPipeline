@@ -1,0 +1,41 @@
+It seems the issue persists even after attempting to pull changes. This error typically occurs when someone else has made changes to the remote branch (dev) after your last pull, causing a conflict between your local branch and the updated remote branch.
+
+To address this, follow these steps:
+
+    Fetch Changes: Start by fetching the changes from the remote repository:
+
+    bash
+
+git fetch origin dev
+
+This command will retrieve the latest changes from the remote dev branch.
+
+Rebase or Merge: After fetching the changes, you can either rebase or merge the remote changes into your local branch dev. Choose one of the following approaches based on your preference:
+
+a. Rebase (if preferred):
+
+bash
+
+git rebase origin/dev
+
+This will rebase your local commits on top of the updated remote branch, incorporating the remote changes.
+
+b. Merge:
+
+bash
+
+git merge origin/dev
+
+This will merge the remote changes into your local branch, creating a new merge commit if needed.
+
+Resolve Conflicts (if any): If there are conflicts during the rebase or merge process, Git will prompt you to resolve these conflicts manually. Once resolved, continue with the rebase or merge process.
+
+Push Changes: After successfully incorporating the remote changes, try pushing your branch again:
+
+bash
+
+    git push origin dev
+
+If you encounter conflicts during the rebase or merge process, resolve them by editing the conflicting files, then add and commit the changes. Once the conflicts are resolved, attempt the push again.
+
+This sequence should help synchronize your local branch with the changes on the remote branch and enable you to push your commits without issues.
