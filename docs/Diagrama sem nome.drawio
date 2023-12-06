@@ -1,32 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T04:55:29.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="_NU7BXczl5rNdy9-Q2_w" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T01:32:09.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="jGCEH14w-RnfarkuK4Q9" version="22.1.5" type="github">
   <diagram name="Página-1" id="0SU0MJansGinVYgPt3Em">
-    <mxGraphModel dx="880" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cXPFrrMtKNsXjSgKLZah-1" value="&lt;div&gt;Fonte do arquivo xlsx&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="cXPFrrMtKNsXjSgKLZah-1" value="&lt;div&gt;&lt;b&gt;Fonte do arquivo xlsx&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;(https://loterias.caixa.gov.br/Paginas/Mega-Sena.aspx)&lt;/u&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry y="190" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cXPFrrMtKNsXjSgKLZah-2" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
+        <mxCell id="cXPFrrMtKNsXjSgKLZah-2" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="109.5" y="110" as="sourcePoint" />
-            <mxPoint x="109.5" y="180" as="targetPoint" />
+            <mxPoint x="159.41" y="290" as="sourcePoint" />
+            <mxPoint x="159.41" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="109.5" y="150" />
+              <mxPoint x="159.41" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cXPFrrMtKNsXjSgKLZah-3" value="Mega-Sena" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="190" width="100" height="100" as="geometry" />
+        <mxCell id="cXPFrrMtKNsXjSgKLZah-3" value="&lt;b&gt;Mega-Sena.xlsx&lt;/b&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="110" y="370" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cXPFrrMtKNsXjSgKLZah-6" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
+        <mxCell id="cXPFrrMtKNsXjSgKLZah-6" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="239.5" as="sourcePoint" />
-            <mxPoint x="250" y="239.5" as="targetPoint" />
+            <mxPoint x="159.41" y="480" as="sourcePoint" />
+            <mxPoint x="159.41" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cXPFrrMtKNsXjSgKLZah-7" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-4" value="ETL" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-5" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="609.41" as="sourcePoint" />
+            <mxPoint x="290" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Pipeline&lt;/font&gt;&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=none;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="450" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-7" value="&lt;b&gt;extracao_xlsx.py&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="sSL-JC1JNAgE-jJ8Iu5J-6">
+          <mxGeometry x="10" y="33" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-8" value="&lt;b&gt;pipeline_mega.py&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="sSL-JC1JNAgE-jJ8Iu5J-6">
+          <mxGeometry x="158" y="33" width="152" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-9" value="&lt;b&gt;grt_number.py&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="sSL-JC1JNAgE-jJ8Iu5J-6">
+          <mxGeometry x="298" y="33" width="142" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-13" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;endSize=9;startSize=8;targetPerimeterSpacing=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="620" as="sourcePoint" />
+            <mxPoint x="770" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-15" value="" style="shape=corner;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="715" y="615" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-16" value="&lt;h1&gt;Arquitetura Projeto Mega&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;u&gt;Desenho da arquitetura do projeto Mega Sena.&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- Recebemos os dados direto do site lotéricas&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- Transforma o arquivo .xlsx em um arquivo txt delimitado&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- Realiza o ETL do arquivo utilizando python para as transformações&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- Realiza o calculo para gerar o jogo da mega de acordo com os numeros mais sorteados.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- Salva em um arquivo .txt &lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="356" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-17" value="&lt;h1&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Projeto Mega&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="203" y="10" width="421" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sSL-JC1JNAgE-jJ8Iu5J-18" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Arquivo final com os numeros a serem jogados&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="730" width="135" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
