@@ -15,7 +15,6 @@ conexao_sqlite = sqlite3.connect('db_mega.db')
 nome_tabela = 'tb_mega'
 df.to_sql(nome_tabela, conexao_sqlite, if_exists='replace', index=False)
 
-
 # Executar uma consulta para visualizar os dados na tabela que você salvou
 nome_tabela = 'tb_mega'
 consulta = f"SELECT * FROM {nome_tabela};"
@@ -28,8 +27,6 @@ for linha in resultados:
     print(linha)
 
 cursor.execute(consulta)
-
-
 
 # Fechar a conexão com o banco de dados SQLite
 cursor.close()
