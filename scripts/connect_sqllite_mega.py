@@ -28,8 +28,6 @@ for linha in resultados:
 
 cursor.execute(consulta)
 
-
-
 # Fechar a conexão com o banco de dados SQLite
 cursor.close()
 conexao_sqlite.close()
