@@ -20,29 +20,29 @@ Estrutura do Repositório:
 
 ## Repositório
 
-- data
-  - bckpfile
-  - file
-  - xlsx
+ - data
+   - bckpfile
+   - file
+    - xlsx
 
-- docs
-  -- arquitetura_mega.drawio
-  -- arquitetura_mega.drawio.html
-  -- arquitetura.md
-  -- Diagrama sem nome.drawio
-  -- doc.txt
+ - docs
+    -- arquitetura_mega.drawio
+    -- arquitetura_mega.drawio.html
+    -- arquitetura.md
+    -- Diagrama sem nome.drawio
+    -- doc.txt
 
-- scripts
-  -- connect_sqlite_mega.py
-  -- database_teste.db
-  -- dev-mega.ipynb
-  -- dev-teste.py
-  -- dv-teste.ipynb
-  -- extracao_xlsx.py
-  -- grt_number.py
-  -- pipeline_mega.py
-  -- teste_connect_sqllite.ipynb
+ - scripts
+    -- connect_sqlite_mega.py
+    -- database_teste.db
+    -- dev-mega.ipynb
+    -- dev-teste.py
+    -- dv-teste.ipynb
+    -- extracao_xlsx.py
+    -- grt_number.py
+    -- pipeline_mega.py
+    -- teste_connect_sqllite.ipynb
 
-- .gitgnore
-- db_mega.db
-- git_comands.txt
+ - .gitgnore
+ - db_mega.db
+ - git_comands.txt
