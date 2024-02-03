@@ -46,3 +46,16 @@ Estrutura do Repositório:
  - .gitgnore
  - db_mega.db
  - git_comands.txt
+
+
+> #### Libs:
+> *pip install pandas
+> pip install requests
+> pip install json
+> pip install openpyxl
+> pip install time
+> pip install itertools 
+> pip install re
+> pip install os
+> pip install shutil
+> pip install sqlite3*
